@@ -1,4 +1,4 @@
-<h1>Welcome#index</h1>
+<h1>Welcome <%= current_user.email %></h1>
 <p>Find me in app/views/welcome/index.html.erb</p>
 
 <h2>Hello universe!</h2>
@@ -6,3 +6,8 @@
 <a href="/articles">Articles#Index</a>
 </br>
 <%= link_to 'My Blog - Articles#index', controller: 'articles' %>
+
+
+<%  if user_signed_in? %>
+    <h3>current user : <%= current_user.email %></h3>
+<% end %>

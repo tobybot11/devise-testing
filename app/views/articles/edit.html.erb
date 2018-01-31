@@ -4,3 +4,7 @@
 
 <%= link_to 'Back', articles_path %>
 
+<%  if user_signed_in? %>
+    <h3>current user : <%= current_user.email %></h3>
+<% end %>
+

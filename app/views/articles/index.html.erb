@@ -19,3 +19,7 @@
 <%= link_to 'New article', new_article_path %>
 </br>
 <%= link_to 'Back -> Welcome', welcome_index_path %>
+
+<%  if user_signed_in? %>
+    <h3>current user : <%= current_user.email %></h3>
+<% end %>
