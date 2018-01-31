@@ -48,14 +48,19 @@ gem 'bootstrap', '~> 4.0.0'
  $ vi Gemfile
 gem 'jquery-rails'
  $ bundle install
+ $ vi conf/application.js
+require 'jquery3'
+require 'popper'
+require 'bootstrap-sprockets'
 ```
 
-## gpg interlude
+## gpg yak shaving interlude
 ```
  $ gpg --edit-keys toby.ford@pobox.com
  > passwd
  > save
 ```
+
 ## fix tzinfo warning
 
 ```
@@ -67,6 +72,11 @@ gem 'tzinfo-data'
  PANIC!
  $ vi Gemfile
 >>> Remove tzinfo-data line <<<
+```
+
+## rvm yak shaving interlude
+```
+ $ rvm-prompt
 ```
 
 ## TODO
