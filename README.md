@@ -34,10 +34,19 @@
 ```
 
 ## Bootstrap
+### helpful-link: https://github.com/twbs/bootstrap-rubygem
 ```
  $ vi Gemfile
 # toby adds
 gem 'bootstrap', '~> 4.0.0'
+ $ bundle install
+ $ vi app/assets/stylesheets/application.css
+@import "bootstrap";
+ $ mv app/assets/stylesheets/application.css app/assets/stylesheets/application.scss
+ $ rails version
+5.1.4
+ $ vi Gemfile
+gem 'jquery-rails'
  $ bundle install
 ```
 
