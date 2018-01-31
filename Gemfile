@@ -35,6 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 # toby adds
 gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap-sass', '3.2.0.2'
 gem 'jquery-rails'
 gem 'foreman'
 

@@ -95,6 +95,16 @@ rails: bundle exec rails
 ```
 ![Rails Screen Yeah](app/assets/images/initial_rails_screen.png)
 
+## get a basic rails app in place usign [RoR Getting Start Guide](http://guides.rubyonrails.org/getting_started.html)
+```
+ ∴ bin/rails generate controller Welcome index
+ ∴ vi app/views/welcome/index.html.erb
+ <h2>Hello universe!</h2>
+ ∴ rails routes
+                  Prefix Verb URI Pattern   Controller#Action
+welcome_index GET  /welcome/index(.:format) welcome#index
+```
+
 ## TODO
 Things you may want to cover:
 
