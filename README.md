@@ -79,6 +79,21 @@ gem 'tzinfo-data'
  $ rvm-prompt
 ```
 
+## this didn't work BTW
+```
+ ∴ rails generate layout:install bootstrap4
+```
+
+## Added Foreman
+```
+ ∴ vi Gemfile
+gem 'foreman'
+ ∴ bundle install
+ ∴ cat Procfile
+rails: bundle exec rails 
+ ∴ foreman start
+```
+
 ## TODO
 Things you may want to cover:
 
