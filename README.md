@@ -167,8 +167,19 @@ Some setup you must do manually if you haven't yet:
  ∴ vi config/environments/development.rb
  ∴ vi app/views/layouts/application.html.erb
  ∴ rails g devise:views
+ ∴ rails generate devise User
+ ∴ cat app/models/user.rb
+ ∴ cat db/migrate/20180131170346_devise_create_users.rb
+ ∴ rails db:migrate
 
+<< restart server as recomended >>
+  
+ ∴ vi app/controllers/application_controller.rb
+before_action :authenticate_user!
+ << add affter forgery line .. >> 
 ```
+
+## helpful link: https://github.com/plataformatec/devise
 
 
 ## TODO
