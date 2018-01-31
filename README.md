@@ -41,6 +41,13 @@ gem 'bootstrap', '~> 4.0.0'
  $ bundle install
 ```
 
+## gpg interlude
+```
+ $ gpg --edit-keys toby.ford@pobox.com
+ > passwd
+ > save
+```
+
 ## TODO
 Things you may want to cover:
 
