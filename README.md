@@ -93,6 +93,7 @@ gem 'foreman'
 rails: bundle exec rails 
  ∴ foreman start
 ```
+![Rails Screen Yeah](app/assets/images/initial_rails_screen.png)
 
 ## TODO
 Things you may want to cover:
