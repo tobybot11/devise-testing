@@ -124,7 +124,11 @@ a_development=> ALTER USER "a" WITH PASSWORD 'new2a';
  ∴ rails db:migrate
 
 ```
+## proceeded to follow along the getting started guide and stopped at section 5.13.. shifting over to devise work
 
+## setting up devise
+```
+```
 
 
 ## TODO
